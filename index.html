@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Scientific Synergy</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="app/css/style.css">
+</head>
+
+<body ng-app="journals">
+	<!--Start header-->
+	<div ng-include="'app/header/header.html'"></div>
+	<!--End Header-->
+	<!--Start Contetn-->
+	<div ui-view></div>
+	<!--End Contetn-->
+	
+	<!--Start Footer-->
+	<div ng-include="'app/footer/footer.html'"></div>
+	<!--End Footer-->
+	
+	<!--Main Js Files-->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<!--Application Js Files-->
+	<script src="app/app.js"></script>
+	<script src="app/routes.js"></script>
+	<script src="app/controllers/homeCtrl.js"></script>
+</body>
+
+</html>

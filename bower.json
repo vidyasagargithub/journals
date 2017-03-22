@@ -1,0 +1,20 @@
+{
+  "name": "journals",
+  "homepage": "https://github.com/vidyasagargithub/journals",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "angular": "1.5.8",
+    "angular-ui-router": "ui-router#^0.4.2"
+  }
+}
